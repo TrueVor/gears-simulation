@@ -1,0 +1,7 @@
+.root { display: inline-block; inline-size: var(--dial-size); max-inline-size: 100%; user-select: none; }
+.svg { display: block; inline-size: 100%; block-size: auto; outline: none; filter: drop-shadow(0 16px 24px rgb(0 0 0 / 0.35)); }
+.svg:focus-visible { outline: 3px solid #ffd95a; outline-offset: 6px; border-radius: 50%; }
+.indicatorButton { cursor: pointer; appearance: none; padding: 0; border: 0; background: transparent; }
+.indicatorButton:disabled { cursor: not-allowed; }
+.pointer { transition: transform 240ms cubic-bezier(.2,.85,.25,1); }
+.disabled { opacity: .62; }
