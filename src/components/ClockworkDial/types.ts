@@ -6,6 +6,7 @@ export interface GearConfig {
   cy: number;
   radius: number;
   teeth: number;
+  toothThicknessPercent?: number;
   angularSpeed?: number;
   initialRotation?: number;
   direction?: 1 | -1;
